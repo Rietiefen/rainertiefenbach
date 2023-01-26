@@ -1,4 +1,10 @@
 .topimage {
+  text-align: center;
+  height: 500px;
   background-image: url("../images/sample.jpeg");
   background-size: cover;
+}
+h1 {
+  font-size: 100px;
+  color:white;
 }
