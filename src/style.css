@@ -21,6 +21,26 @@ h1 {
   height: 50%;
 }
 
+/* contactbutton */
+.contactbutton {
+  text-align: center;
+  font-size: 50px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  border-color: #eb6100;
+}
+.btn-primary:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+
 /* footer */
 .footer {
   height: 300px;
