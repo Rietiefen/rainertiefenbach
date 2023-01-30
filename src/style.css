@@ -2,6 +2,7 @@
   --main-color: #f8f9fa;
 }
 
+/* top */
 .topimage {
   text-align: center;
   height: 500px;
@@ -11,6 +12,12 @@
 h1 {
   font-size: 100px;
   color: white;
+}
+
+/* carousel */
+.carouselsize {
+  width: 50%;
+  height: 50%;
 }
 
 .footer {
