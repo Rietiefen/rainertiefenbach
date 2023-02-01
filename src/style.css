@@ -85,7 +85,7 @@ p {
   margin-top: 3px;
   color: #fff;
   background: #b7a775;
-  border-bottom: 2px solid #b7a775;
+  border-bottom: 5px solid #b7a775;
   border-color: #b7a775;
 }
 
@@ -94,4 +94,10 @@ p {
   height: 200px;
   background-color: var(--main-color);
   color: var(--text-color);
+  position: relative;
+}
+.copyright {
+  position: absolute;
+  bottom: 0;
+  padding-left: 15px;
 }
