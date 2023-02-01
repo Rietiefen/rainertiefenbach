@@ -119,3 +119,8 @@ label {
     width: 70%;
   }
 }
+.send {
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+}
