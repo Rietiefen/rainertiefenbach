@@ -7,6 +7,7 @@
 body {
   background-image: url("../images/musicbackground.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 h2,
 p {
@@ -27,6 +28,10 @@ p {
 }
 .navbar-toggler-icon {
   color: var(--text-color);
+}
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--sub-color);
 }
 .name {
   font-size: 100px;
@@ -100,4 +105,12 @@ p {
   position: absolute;
   bottom: 0;
   padding-left: 15px;
+}
+
+/* contact form */
+.form-control {
+  width: 50%;
+}
+label {
+  color: var(--text-color);
 }
