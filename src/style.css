@@ -109,8 +109,13 @@ p {
 
 /* contact form */
 .form-control {
-  width: 50%;
+  width: 350px;
 }
 label {
   color: var(--text-color);
+}
+@media screen and (max-width: 540px) {
+  .form-control {
+    width: 70%;
+  }
 }
