@@ -28,6 +28,7 @@ p {
 }
 .navbar-toggler-icon {
   color: var(--text-color);
+  height: 100%;
 }
 .navbar-brand:hover,
 .nav-link:hover {
@@ -117,6 +118,15 @@ label {
 @media screen and (max-width: 540px) {
   .form-control {
     width: 70%;
+  }
+  .name {
+    font-size: 40px;
+    text-align: center;
+    left: 0px;
+  }
+  .detail {
+    font-size: 16px;
+    left: 0px;
   }
 }
 .send {
