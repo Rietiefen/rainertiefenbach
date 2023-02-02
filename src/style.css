@@ -65,11 +65,19 @@ p {
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+.bio {
+  background-color: rgba(0, 0, 0, 0.2);
+}
 
 /* carousel */
 .carouselsize {
   width: 60%;
   height: 50%;
+}
+
+/* cards */
+.card-group {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* contactbutton */
