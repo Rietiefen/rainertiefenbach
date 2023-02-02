@@ -45,7 +45,6 @@ p {
   font-family: "Yellowtail", cursive;
   color: var(--text-color);
   position: relative;
-  left: 30px;
   text-shadow: 2px 3px 2px var(--sub-color);
 }
 .detail {
