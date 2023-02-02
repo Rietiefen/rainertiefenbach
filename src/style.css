@@ -1,4 +1,6 @@
 /* all */
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+
 :root {
   --main-color: #403c39;
   --sub-color: #9c9170;
@@ -9,7 +11,11 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-h2,
+h2 {
+  font-family: "Yellowtail", cursive;
+  color: var(--text-color);
+  text-shadow: 1px 2px 3px #403c39;
+}
 p {
   color: var(--text-color);
   text-shadow: 1px 2px 3px #403c39;
@@ -36,6 +42,7 @@ p {
 }
 .name {
   font-size: 100px;
+  font-family: "Yellowtail", cursive;
   color: var(--text-color);
   position: relative;
   left: 30px;
@@ -45,6 +52,7 @@ p {
   font-size: 30px;
   color: var(--text-color);
   position: relative;
+  top: 20px;
   left: 30px;
   text-shadow: 2px 3px 2px var(--sub-color);
 }
@@ -73,6 +81,9 @@ p {
 .carouselsize {
   width: 60%;
   height: 50%;
+}
+.carousel-inner {
+  border-radius: 10px;
 }
 
 /* cards */
@@ -157,6 +168,9 @@ label {
     font-size: 16px;
     left: 0px;
     top: 60px;
+  }
+  .carouselsize {
+    margin-left: 0px;
   }
   .thanks {
     font-size: 30px;
