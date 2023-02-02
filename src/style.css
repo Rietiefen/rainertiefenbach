@@ -97,11 +97,10 @@ p {
 
 /* footer */
 .footer {
-  min-height: 30vh;
+  min-height: 25vh;
   position: relative;
   background-color: var(--main-color);
   color: var(--text-color);
-  /* position: ; */
   bottom: 0;
 }
 .copyright {
@@ -127,7 +126,7 @@ label {
 .thanks {
   color: var(--text-color);
   font-size: 50px;
-  /* height: 400px; */
+  height: 400px;
 }
 .thanksdetail {
   font-size: 30px;
